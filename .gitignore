@@ -1,0 +1,14 @@
+# Dependencias
+node_modules/
+
+# Entornos
+.env
+
+# Build y logs
+dist/
+build/
+.vite/
+*.log
+
+# Sistema
+.DS_Store

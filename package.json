@@ -1,0 +1,13 @@
+{
+  "name": "cypress-avance1-manual",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Avance 1 - Cypress scripts (scripting tradicional)",
+  "scripts": {
+    "test": "cypress run --spec 'cypress/e2e/login-manual/*.cy.js'",
+    "open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^13.13.0"
+  }
+}
